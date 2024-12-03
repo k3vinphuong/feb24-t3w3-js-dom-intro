@@ -16,3 +16,7 @@ dataArray.forEach((cars) => {
     console.log(cars);
     
 });
+
+let carsContainerElement = document.getElementById("carsContainer");
+
+carsContainerElement.innerText = "Hello World!";
